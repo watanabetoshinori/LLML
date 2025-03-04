@@ -33,7 +33,7 @@ LLML is a sleek, powerful translation app designed for macOS, utilizing state-of
 
 ## 📋 Requirements
 
-- macOS 15.0 (Sequoia) or later.
+- macOS 14.0 (Sonoma) or later.
 - Optional: OpenAI API Key (if using OpenAI as your translation provider).
 - Optional: [Ollama](https://ollama.com) (requires proper URL and model configuration).
 
@@ -41,8 +41,11 @@ LLML is a sleek, powerful translation app designed for macOS, utilizing state-of
 
 ### For Users
 
-1. Visit the [Latest Release](https://github.com/watanabetoshinori/LLML/releases) page and download the .dmg installation package.
-2. Double-click the downloaded .dmg file to begin installation.
+1. Visit the [Latest Release](https://github.com/watanabetoshinori/LLML/releases) page.  
+2. Open the **Assets** section, download the `.zip` file.  
+3. Extract the downloaded `.zip` file.  
+4. Move the extracted `LLML.app` to the `Applications` folder.  
+5. Double-click `LLML.app` to launch the application.  
 
 ### For Developers
 
@@ -56,6 +59,7 @@ LLML is a sleek, powerful translation app designed for macOS, utilizing state-of
 2. Open the project in Xcode:
 
     ```sh
+    cd App
     open LLML.xcodeproj
     ```
 
@@ -93,7 +97,7 @@ A: Yes, [Ollama](https://ollama.com) and Apple Translate support offline transla
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the [LICENSE](http://_vscodecontentref_/0) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## 👤 Author
 
