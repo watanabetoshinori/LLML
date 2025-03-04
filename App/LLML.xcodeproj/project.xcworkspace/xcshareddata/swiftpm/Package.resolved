@@ -1,0 +1,24 @@
+{
+  "originHash" : "bd1f98351cb82334aaf231fb116ace88b543a2711045e10f694c9d48660bf811",
+  "pins" : [
+    {
+      "identity" : "ollamakit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kevinhermawan/OllamaKit.git",
+      "state" : {
+        "revision" : "791c4c74ee3e67a5bb4a50dc6620c590f119cfd1",
+        "version" : "5.0.7"
+      }
+    },
+    {
+      "identity" : "openai",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MacPaw/OpenAI.git",
+      "state" : {
+        "revision" : "843e087929aa806adb611dbca93f9a4a7f28be04",
+        "version" : "0.3.0"
+      }
+    }
+  ],
+  "version" : 3
+}
